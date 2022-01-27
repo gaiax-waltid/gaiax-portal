@@ -3,12 +3,12 @@
       <section class="py-5 text-center container">
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <img src="/favicon.png"/>
+            <img src="/gaiax.jpeg"/>
             <h2 class="fw-normal">
               Welcome to the
             </h2>
             <h2 class="fw-bold">
-              Demo Verifier Portal
+              Demo Gaia-X Portal
             </h2>
             <p class="lead text-muted">
               Connect your wallet and share<br>your credentials to access services.

@@ -1,8 +1,8 @@
-# waltid-verifier-portal
+# Gaia-X Portal
 
-[![CI/CD Workflow for Walt.ID Verifier Portal](https://github.com/walt-id/waltid-verifier-portal/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/walt-id/waltid-verifier-portal/actions/workflows/ci.yml)
+A simple reference implementation for the Gaia-X Portal, to showcase the usage of the a ParticipantCredential (W3C Verifiable Credential) for authorizing members.
 
-A simple reference implementation for a Verifier Portal, leveraging the verifier backend API implemented in: https://github.com/walt-id/waltid-wallet-backend
+Hosted at https://gaiax-portal.walt.id/ for demo purpose only.
 
 ## Verifier backend connection
 
@@ -24,7 +24,7 @@ https://github.com/walt-id/waltid-wallet-backend
 
 ## Building Docker image
 
-  docker build --rm -t waltid-verifier .
+  docker build --rm -t gaiax-portal .
 
 ## Build Setup
 
