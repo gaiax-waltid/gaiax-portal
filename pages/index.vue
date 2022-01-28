@@ -27,7 +27,7 @@
 export default {
   data () {
     return {
-      schemaUri: 'https://api.preprod.ebsi.eu/trusted-schemas-registry/v1/schemas/0x2488fd38783d65e4fd46e7889eb113743334dbc772b05df382b8eadce763101b'
+      schemaUri: 'https://raw.githubusercontent.com/walt-id/waltid-ssikit-vclib/master/src/test/resources/schemas/ParticipantCredential.json'
     }
   },
   async asyncData ({ $axios }) {
