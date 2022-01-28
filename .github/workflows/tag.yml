@@ -42,4 +42,4 @@ jobs:
           DOCKER_USERNAME: ${{secrets.DOCKER_USERNAME}}
           DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
           DOCKER_FILE: Dockerfile
-          CONTAINER_TAG: ${{ format('waltid/ssikit-verifier-portal:{0}', github.ref_name) }}
+          CONTAINER_TAG: ${{ format('waltid/gaiax-portal:{0}', github.ref_name) }}

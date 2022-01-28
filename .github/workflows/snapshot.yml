@@ -53,4 +53,4 @@ jobs:
           DOCKER_USERNAME: ${{secrets.DOCKER_USERNAME}}
           DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
           DOCKER_FILE: Dockerfile
-          CONTAINER_TAG: waltid/ssikit-verifier-portal:latest
+          CONTAINER_TAG: waltid/gaiax-portal:latest
