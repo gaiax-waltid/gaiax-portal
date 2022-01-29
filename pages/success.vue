@@ -104,7 +104,7 @@
               <br>
               {{JSON.stringify(result.verification_result.policyResults, undefined, 2)}}
             </div>
-            <div class="alert alert-secondary mt-4" role="alert">
+            <div v-if="result.verification_result.valid" class="alert alert-secondary mt-4" role="alert">
               Authenticated session established
               <br>
               <span>
@@ -118,6 +118,9 @@
                 <a href="#" v-if="access_token === 'View session token'" class="text-dark" @click="viewSessionToken">View session token</a>
                 <a href="#" v-else class="text-dark" @click="viewSessionToken">{{access_token.slice(0,30)}}...</a>
               </span>
+            </div>
+            <div v-else="result.verification_result.valid" class="alert alert-secondary mt-4" role="alert">
+              No authenticated session established!
             </div>
             <p class="text-muted fw-bold mt-5">© 2022 walt.id</p>
           </div>
