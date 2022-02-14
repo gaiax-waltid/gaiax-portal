@@ -4,7 +4,6 @@
         <div class="row py-lg-5">
           <div class="col-lg-4 col-md-6 mx-auto">
             <h2 class="fw-normal">
-            <h2 class="fw-normal">
               Thanks, you just
             </h2>
             <h2 class="fw-bold mb-2">
