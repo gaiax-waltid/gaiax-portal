@@ -1,3 +1,7 @@
+
+# CAUTION: this repository got moved to https://gitlab.com/gaia-x/lab/compliance/gx-issuer-portal
+----------------------------------------------------------------------------------------------------
+
 # Gaia-X Portal
 
 A simple reference implementation for the Gaia-X Portal, to showcase the usage of the a ParticipantCredential (W3C Verifiable Credential) for authorizing members.
